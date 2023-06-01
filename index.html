@@ -1,133 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Alexandra Zajaczkowski - Software Engineer</title>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link href="/dist/output.css" rel="stylesheet" />
+    <title>Vite + React</title>
   </head>
-
-  <body class="bg-purple-400">
-    <div class="container mx-auto">
-      <!-- NAVIGATION TABS -->
-      <div
-        class="grid w-full place-items-center overflow-x-scroll rounded-lg p-6 lg:overflow-visible"
-      >
-        <div class="w-full">
-          <div class="relative right-0">
-            <ul class="relative flex list-none flex-wrap">
-              <li class="z-30 flex-auto text-center">
-                <a
-                  class="text-slate-700 z-30 mb-0 flex w-full cursor-pointer items-center justify-center rounded-lg border-0 bg-inherit px-0 py-1 transition-all ease-in-out"
-                  href="index.html"
-                >
-                  <button class="fun-button">About Me</button>
-                </a>
-              </li>
-              <li class="z-30 flex-auto text-center">
-                <a
-                  class="text-slate-700 z-30 mb-0 flex w-full cursor-pointer items-center justify-center rounded-lg border-0 bg-inherit px-0 py-1 transition-all ease-in-out"
-                  href="codeprojects.html"
-                >
-                  <button class="fun-button">Code Projects</button>
-                </a>
-              </li>
-              <li class="z-30 flex-auto text-center">
-                <a
-                  class="text-slate-700 z-30 mb-0 flex w-full cursor-pointer items-center justify-center rounded-lg border-0 bg-inherit px-0 py-1 transition-all ease-in-out"
-                  href="writing.html"
-                >
-                  <button class="fun-button">Writing</button>
-                </a>
-              </li>
-              <li class="z-30 flex-auto text-center">
-                <a
-                  class="text-slate-700 z-30 mb-0 flex w-full cursor-pointer items-center justify-center rounded-lg border-0 bg-inherit px-0 py-1 transition-all ease-in-out"
-                  href="misc.html"
-                >
-                  <button class="fun-button">Misc. Experiments</button>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <!-- END TABS -->
-      <h1
-        class="text-3xl tracking-wide text-center shadow-sm mb-2 hover:italic"
-      >
-        Alexandra Zajaczkowski
-      </h1>
-      <div>
-        <ul>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/alexandra-zajaczkowski/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i class="fa-brands fa-linkedin fa-2xl text-gray-100"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <!--  Post-It-Notes-Start -->
-      <div class="flex flex-row my-4 space-x-2">
-        <!-- row of content -->
-        <div class="flex-col">
-          <!-- column of content -->
-
-          <div class="my-4 w-64 h-64 p-2 bg-yellow-300 drop-shadow-md rotate-6">
-            <h2 class="font-bold text-lg">Career</h2>
-            <p>
-              Welcome! I'm a full-time front-end engineer, with several years of
-              product management experience.
-            </p>
-          </div>
-        </div>
-        <div class="flex-col">
-          <div class="my-4 w-64 h-64 p-2 bg-sky-300 drop-shadow-md -rotate-6">
-            <h2 class="font-bold text-lg">Past Experience</h2>
-            <p>I've worked for two start-ups- one of which I'm still in.</p>
-          </div>
-        </div>
-        <div class="flex-col">
-          <div class="my-4 w-64 h-64 p-2 bg-yellow-300 drop-shadow-md rotate-6">
-            <h2 class="font-bold text-lg">Passions</h2>
-            <p>
-              When I'm not busy coding projects, I immerse myself in the
-              creative arts of writing, performance, photography and cinema.
-            </p>
-          </div>
-        </div>
-        <div class="flex-col">
-          <div class="my-4 w-64 h-64 p-2 bg-sky-300 drop-shadow-md -rotate-6">
-            <h2 class="font-bold text-lg">Stay tuned...</h2>
-            <p></p>
-          </div>
-        </div>
-      </div>
-      <!-- Post-It-Notes-End -->
-
-      <!-- <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif"/> -->
-
-      <div class="container mx-auto">
-        <iframe
-          class="w-full"
-          src="https://giphy.com/embed/mq3spgAIfKJiveyjXg"
-        ></iframe>
-      </div>
-    </div>
-
-    <script
-      src="https://kit.fontawesome.com/c026f02c9a.js"
-      crossorigin="anonymous"
-    ></script>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
