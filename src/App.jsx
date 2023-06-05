@@ -7,9 +7,10 @@ function App() {
 
   return (
     <>
+    <Menu/>
     <div className="container mx-auto">
+
       {/* NAVIGATION TABS  */}
-      <Menu/>
       <Aboutme/>
        {/* END TABS  */}
       <h1
