@@ -1,7 +1,7 @@
 function Menu() {
 
 return(
-    <div className="grid w-full place-items-center overflow-x-scroll p-10 lg:overflow-visible bg-gradient-to-b from-indigo-300 to- bg-orange-100">        
+    <div className="grid w-full place-items-center overflow-x-scroll p-10 lg:overflow-visible bg-gradient-to-b from-indigo-300 to-orange-100">        
         <div className="w-full">
           <div className="relative right-0">
        

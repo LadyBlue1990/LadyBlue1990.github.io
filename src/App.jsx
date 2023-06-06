@@ -2,17 +2,26 @@ import './App.css'
 import Menu from './Menu.jsx'
 import Footer from './Footer.jsx'
 import Aboutme from './Aboutme.jsx'
+import { useState } from 'react'
+
+//When I'm on the homepage and select the link to another page, the react app component will render the selected page.
+
+// Key Start 
+const pages = {
+  aboutMe : <Aboutme/>
+};
+
+
 
 function App() {
+const [currentPage, setCurrentPage] = useState ("aboutMe");
 
   return (
     <>
     <Menu/>
     <div className="container mx-auto">
 
-      {/* NAVIGATION TABS  */}
-      <Aboutme/>
-       {/* END TABS  */}
+    {pages["aboutMe"]}
       <h1
         className="text-3xl tracking-wide text-center shadow-sm mb-2 hover:italic"
       >

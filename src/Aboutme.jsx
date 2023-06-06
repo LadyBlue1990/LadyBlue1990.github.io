@@ -1,7 +1,8 @@
 function Aboutme(){
     return(
-        <><title>About Me</title>
-        <header>I am a product manager turned software engineer. </header></>
-    )
+        <div><div>About Me</div>
+        <div>I am a product manager turned software engineer.</div>
+</div>
+         )
 }
 export default Aboutme
