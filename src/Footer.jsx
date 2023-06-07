@@ -1,7 +1,7 @@
 function Footer() {
     return (
 <footer
-className="w-full h-16 fixed left-0 right-0 bottom-0 text-white text-sm bg-gradient-to-b from-orange-200 to-indigo-300"
+className="w-full h-16 fixed left-0 right-0 bottom-0 text-black text-sm bg-gradient-to-b from-orange-50 to-indigo-200"
 >
 <div className="grid grid-cols-3 gap-4 p-4">
   <div>Coded by me :)</div>
