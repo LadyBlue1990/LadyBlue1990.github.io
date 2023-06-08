@@ -1,18 +1,25 @@
 function AboutMe() {
   return (
     <>
-      <div className="mb-8">
+      <div className="py-8">
         <div className="text-3xl tracking-wide text-center hover:italic">
           About me
         </div>
         <div className="mb-8">
-        <p className="pointer-events-none text-sm text-left">
-          When working on my webpage, I wanted to convey parts of my personality. I say parts 
-          because it's inherently challening in my humble opinion, to summarize any human being
-          into a few sentences. However, it is possible, to show hints and glimmers of onself in whatever we set out to do. In this instance, it's my webpage.
-          I hope when you go through my pages, you get a sense of what I'm about and have an experience through the styles, fonts, colors
-          and the descriptions and projects that I provide. This will be an on-going development, meaning the content and pages will change over time
-          just like we do. 
+        <p className="py-3 pointer-events-none text-sm text-left ">
+            I'm a former product manager that made the unique transition to software engineering. For now, I'm front-end focused. 
+            The transition came from long deliberation and curiosity. 
+
+            For better or worse, I'm an artist and creating is in my blood. I wanted to know how to make the magic happen.
+            My background in product and previously in the service industry and arts- allows me to create 
+            with the user's experience in mind. 
+
+            When working on my webpage, I wanted to convey parts of my personality. I say parts 
+            because it's inherently challening in my humble opinion, to summarize any human being
+            into a few sentences. However, it is possible, to show hints and glimmers of onself in whatever we set out to do. In this instance, it's my webpage.
+            I hope when you go through my pages, you get a sense of what I'm about and have an experience through the styles, fonts, colors
+            and the descriptions and projects that I provide. This will be an on-going development, meaning the content and pages will change over time
+            just like we do. 
         </p>
         </div>
 
