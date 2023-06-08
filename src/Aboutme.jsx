@@ -3,7 +3,7 @@ function AboutMe() {
     <>
       <div className="py-8">
         <div className="text-3xl tracking-wide text-center hover:italic">
-          About me
+          About Me
         </div>
         <div className="mb-8">
         <p className="py-3 pointer-events-none text-sm text-left ">
