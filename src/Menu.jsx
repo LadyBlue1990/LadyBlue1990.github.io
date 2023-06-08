@@ -4,7 +4,7 @@ export default function Menu({handleClick}) {
   // define the onClick event handler function here
 
   return (
-    <div className="grid gap-4 grid-cols-5 w-full p-4 bg-gradient-to-b from-indigo-200 to-orange-50">
+    <div className="grid gap-4 grid-cols-5 w-full p-4 bg-indigo-100">
       {/* add an onClick prop to the button, and pass in the event handler you wrote above */}
 
       <button onClick={() => handleClick('HOME')}>Home</button>

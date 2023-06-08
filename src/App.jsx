@@ -19,11 +19,11 @@ export default function App() {
   function handleMenuClick(message) {
     setCurrentPage(message);
   }
-
+ 
   return (
     <>
       <Menu handleClick={handleMenuClick} />
-      <div className="bg-gradient-to-b from-orange-50 via-indigo-200 to-orange-50">
+      <div className="bg-gradient-to-b from-indigo-100 via-orange-100 to-indigo-100 ">
         <div className="container mx-auto min-h-screen">
           {pages[currentPage]}
           <div>
