@@ -1,30 +1,21 @@
-export default function Menu() {
-  // define the onClick event handler function here
+import PropTypes from 'prop-types'
 
+export default function Menu({handleClick}) {
+  // define the onClick event handler function here
 
   return (
     <div className="grid gap-4 grid-cols-5 w-full p-4 bg-gradient-to-b from-indigo-200 to-orange-50">
       {/* add an onClick prop to the button, and pass in the event handler you wrote above */}
 
-      <button onClick={function() {
-        alert('You CLICKED ME!');
-      }}>Home</button>
+      <button onClick={() => handleClick('HOME')}>Home</button>
 
-      <button onClick={function() {
-        alert('FRIES PLEASE');
-      }}>About Me</button>
+      <button onClick={() => handleClick('ABOUT_ME')}>About Me</button>
 
-      <button onClick={function(){
-      alert('and cheese');
-      }}>Code Projects</button>
+      <button onClick={() => handleClick('CODE_PROJECTS')}>Code Projects</button>
       
-      <button onClick={function(){
-        alert('and ketchup');
-      }}>Writing</button>
+      <button onClick={() => handleClick('WRITING')}>Writing</button>
       
-      <button onClick={function(){
-        confirm('thanks');
-      }}>Misc. Experiments</button>
+      <button onClick={() => handleClick('MISC_EXPERIMENTS')}>Misc. Experiments</button>
       
       {/* <div className="w-full">
         <div className="relative right-0">
@@ -75,3 +66,7 @@ export default function Menu() {
     </div>
   );
 }
+
+Menu.propTypes = {
+  handleClick: PropTypes.func
+};
