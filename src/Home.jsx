@@ -13,7 +13,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="flex flex-col max-w-fit py-6 gap-x-6 gap-y-2 items-center">
+      <div className="flex flex-col py-6 space-y-4 items-center">
         <button className="rounded-lg bg-purple-400 hover:bg-purple-500 hover:border-purple-600 border-8 border-purple-400 ring-2 shadow-lg shadow-blue-500/50">
             Save
           </button>
