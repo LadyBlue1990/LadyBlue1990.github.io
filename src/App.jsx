@@ -34,7 +34,7 @@ export default function App() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="fa-brands fa-linkedin fa-2xl text-gray-100"></i>
+                  <i className="fa-brands fa-linkedin fa-2xl text-purple-200"></i>
                 </a>
               </li>
             </ul>
