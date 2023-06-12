@@ -60,16 +60,11 @@ function AboutMe() {
           When I&apos;m not busy coding projects, I immerse myself in the
           creative arts of writing, performance, photography and cinema.
         </p>
-        <div className="flex-col">
-<div className="my-4 w-64 h-64 p-2 bg-orange-200 drop-shadow-md -rotate-6 hover:bg-transparent">
-        <h2 className="font-bold text-lg">Stay tuned...</h2>
         </div>
         </div>
         </div>
         </div>
         </div>
-        </div>
-       </div>
     </>
 
   );

@@ -3,14 +3,16 @@ import Menu from "./Menu.jsx";
 import Footer from "./Footer.jsx";
 import AboutMe from "./AboutMe.jsx";
 import Home from "./Home.jsx";
+import Writing from "./Writing.jsx"; 
 import { useState } from "react";
 
 //When I'm on the homepage and select the link to another page, the react app component will render the selected page.
 
 // Key Start
 const pages = {
-  HOME: <Home />,
-  ABOUT_ME: <AboutMe />,
+  HOME: <Home/>,
+  ABOUT_ME: <AboutMe/>,
+ WRITING: <Writing/>,
 };
 
 export default function App() {
@@ -29,24 +31,26 @@ export default function App() {
           <div>
             <ul>
               <li>
-                <a
-                  href="https://www.linkedin.com/in/alexandra-zajaczkowski/"
+                <a href="https://www.linkedin.com/in/alexandra-zajaczkowski/"
                   target="_blank"
-                  rel="noopener noreferrer"
-                >
+                  rel="noopener noreferrer">
                   <i className="fa-brands fa-linkedin fa-2xl text-purple-200"></i>
                 </a>
               </li>
             </ul>
           </div>
           
-          
-          <div className="container mx-auto">
+          <div className="width:100%;height:0;padding-bottom:80%;position:relative;">
+            <iframe className="w-full" 
+            src="https://giphy.com/embed/EbanRlLKGb5mZS3IXs"></iframe>
+            </div>
+          {/* penguin giphy below */}
+          {/* <div className="container mx-auto">
             <iframe
               className="w-full"
               src="https://giphy.com/embed/mq3spgAIfKJiveyjXg"
             ></iframe>
-          </div>
+          </div> */}
           <Footer />
         </div>
       </div>

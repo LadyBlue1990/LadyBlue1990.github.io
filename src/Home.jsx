@@ -13,15 +13,13 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="flex flex-col py-6 space-y-4 items-center">
-        <button className="rounded-lg bg-purple-400 hover:bg-purple-500 hover:border-purple-600 border-8 border-purple-400 ring-2 shadow-lg shadow-blue-500/50">
-            Save
+      {/* hover:bg-purple-500 - fills button color on hover*/}
+      <div className="flex flex-col py-6 space-y-4 git items-center">
+        <button className="rounded-lg bg-orange-400 hover:bg-orange-500 hover:border-orange-500 border-8 ring-2 shadow-lg shadow-blue-500/50">
+            More About Me 
           </button>
-          <button className="rounded-lg bg-purple-400 hover:bg-purple-500 border-8 border-purple-400 ring-2 shadow-lg shadow-blue-500/50">
-            Save Larry
-          </button>
-          <button className="rounded-lg bg-purple-400 hover:bg-purple-500 border-8 border-purple-400 ring-2 shadow-lg shadow-blue-500/50">
-            Save Larry a;lkdlskd
+          <button className="rounded-lg bg-orange-400 hover:bg-orange-500 border-8 hover:border-orange-500 ring-2 shadow-lg shadow-blue-500/50">
+            Code Projects
           </button>
         </div>
     </>
