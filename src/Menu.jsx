@@ -4,12 +4,12 @@ export default function Menu({handleClick}) {
   // define the onClick event handler function here
 
   return (
-    <div className="grid gap-4 grid-cols-5 w-full p-4 bg-indigo-100">
+    <div className="grid gap-4 grid-cols-5 w-full p-16 bg-indigo-100 on">
       {/* add an onClick prop to the button, and pass in the event handler you wrote above */}
 
-      <button onClick={() => handleClick('HOME')}>Home</button>
+      <button onClick={() => handleClick('HOME')}>Home</button> 
 
-      <button onClick={() => handleClick('ABOUT_ME')}>About Me</button>
+       <button onClick={() => handleClick('ABOUT_ME')}>About Me</button>
 
       <button onClick={() => handleClick('CODE_PROJECTS')}>Code Projects</button>
       
