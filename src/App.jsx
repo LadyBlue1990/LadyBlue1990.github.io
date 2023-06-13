@@ -30,7 +30,7 @@ export default function App() {
           {pages[currentPage]}
         
            
-          
+          <div className="py-80">
           <div className="width:100%;height:0;padding-bottom:80%;position:relative;">
             <iframe className="w-full" 
             src="https://giphy.com/embed/EbanRlLKGb5mZS3IXs"></iframe>
@@ -38,6 +38,7 @@ export default function App() {
           <Footer />
           </div>
         </div>
+      </div>
       </div>
       </>
   );
